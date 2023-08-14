@@ -1,0 +1,47 @@
+% Chương 1
+
+\chapter{TÌM KIẾM ĐƯỜNG ĐI TRONG MÊ CUNG} % Tên của chương
+
+\label{Chapter1} % Để trích dẫn chương này ở chỗ nào đó trong bài, hãy sử dụng lệnh \ref{Chapter1} 
+
+%----------------------------------------------------------------------------------------
+
+% Định nghĩa một số lệnh cần thiết để điều chỉnh định dạng cho một số nội dung nhất định trong bài
+\newcommand{\keyword}[1]{\textbf{#1}}
+\newcommand{\tabhead}[1]{\textbf{#1}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\file}[1]{\texttt{\bfseries#1}}
+\newcommand{\option}[1]{\texttt{\itshape#1}}
+
+%----------------------------------------------------------------------------------------
+\section{Giới thiệu}
+Mô phỏng tìm đường đi trong mê cung là một phương pháp để tìm kiếm đường đi từ một điểm bắt đầu tới một điểm kết thúc trong một mê cung. Phương pháp này áp dụng các thuật toán tìm kiếm đường đi, như DFS, BFS, A*,... để tìm ra đường đi ngắn nhất hoặc đường đi tối ưu nhất trong mê cung.
+
+Mô phỏng tìm đường đi trong mê cung thường được sử dụng trong lĩnh vực trò chơi điện tử để tạo ra các trò chơi dạng mê cung và giải quyết bài toán đi qua mê cung. Ngoài ra, nó còn được ứng dụng trong các lĩnh vực như điều khiển tàu thủy, máy tính thông minh,...
+
+Trong quá trình mô phỏng, các tường, các đường đi và các điểm đích sẽ được tạo ra. Sau đó, người dùng sẽ nhập vào điểm bắt đầu và điểm kết thúc, và trải nghiệm quá trình tìm đường đi thông qua các thuật toán tìm kiếm đường đi được tích hợp trong mô phỏng.
+
+Mô phỏng tìm đường đi trong mê cung giúp người dùng hiểu rõ hơn về cách thức hoạt động của các thuật toán tìm kiếm đường đi và cách chúng giải quyết bài toán đi qua mê cung.
+
+
+
+\section{Mô tả}
+Việc mô phỏng thuật toán tìm kiếm đường đi trong mê cung thường bao gồm các bước sau:
+
+\begin{enumerate}
+	\item Tạo ra môi trường mê cung: Đầu tiên, chúng ta cần tạo ra một môi trường mê cung. Điều này có thể được thực hiện bằng cách sử dụng các thuật toán tạo ra mê cung có sẵn, hoặc có thể sử dụng các công cụ thiết kế môi trường để tự tạo ra một mê cung.
+	\item Xác định các điểm bắt đầu và kết thúc: Sau khi tạo ra mê cung, chúng ta cần xác định các điểm bắt đầu và kết thúc. Điểm bắt đầu là nơi mà thuật toán bắt đầu tìm kiếm đường đi, trong khi điểm kết thúc là mục tiêu của chúng ta trong quá trình tìm kiếm đường đi.
+	\item Chọn thuật toán tìm kiếm đường đi: Nhiều thuật toán khác nhau có thể được sử dụng để tìm kiếm đường đi trong mê cung, bao gồm DFS (đi sâu trước), BFS (đi rộng trước), A* và nhiều thuật toán khác. Tùy thuộc vào mục đích và yêu cầu của ứng dụng, chúng ta nên chọn thuật toán tìm kiếm thích hợp nhất để đạt được kết quả tốt nhất.
+	\item Thực hiện thuật toán tìm kiếm đường đi: Sau khi chọn thuật toán, chúng ta sẽ thực hiện nó để tìm kiếm đường đi từ điểm bắt đầu đến điểm kết thúc. Trong quá trình này, thuật toán sẽ di chuyển qua từng ô trong mê cung, theo các quy tắc của thuật toán được chọn và đưa ra quyết định để di chuyển sang ô tiếp theo.
+	\item Hiển thị kết quả: Khi thuật toán tìm kiếm đường đi hoàn tất, chúng ta sẽ hiển thị kết quả tìm được cho người dùng, bao gồm đường đi từ điểm bắt đầu đến điểm kết thúc và độ dài của đường đi.
+\end{enumerate}
+
+
+Các bước này sẽ giúp chúng ta thực hiện việc mô phỏng thuật toán tìm kiếm đường đi trong mê cung một cách đơn giản và dễ hiểu. Việc mô phỏng này giúp người dùng hiểu rõ hơn về nguyên lý hoạt động của các thuật toán tìm kiếm đường đi và cách kết hợp chúng để tìm kiếm đường đi tối ưu trong một mê cung.
+
+
+
+
+
+
+
